@@ -2,7 +2,13 @@
 
 System: Lunux
 
-### 1. Locate the exisiting version
+### 1. Find your and the last avalable version. 
+
+
+### 2. Locate the exisiting version
+In case the go is instaleld and works find it like that  
+Use where is to find the 
 ```
-### 1. Uninstall the exisiting version
+$whereis go
+go: /usr/local/go /usr/local/go/bin/go
 ```
