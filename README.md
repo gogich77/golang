@@ -34,6 +34,7 @@ This will make a local go folder.
 # mv /usr/local/go /usr/local/go-old
 ```
 Root is needed. Move the old working go folder
+When the new ver. can replace the old one this backup folder can be removed.
 
 ```
 # mv ./go /usr/local/go
@@ -44,3 +45,12 @@ Move the local new go folder to the old place
 # chown root:root -R  /usr/local/go
 ```
 The owner has to be the root
+
+
+### 4. Verify the new version
+
+```
+$ go version 
+go version go1.13.5 linux/amd64
+```
+If everything is ok 
