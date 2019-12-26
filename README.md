@@ -41,6 +41,6 @@ Root is needed. Move the old working go folder
 Move the local new go folder to the old place
 
 ```
-# chown root:root -r  /usr/local/go
+# chown root:root -R  /usr/local/go
 ```
 The owner has to be the root
