@@ -53,4 +53,4 @@ The owner has to be the root
 $ go version 
 go version go1.13.5 linux/amd64
 ```
-If everything is ok 
+If you see the version string everything is ok. 
